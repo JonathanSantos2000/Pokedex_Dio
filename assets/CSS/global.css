@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../IMG/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background: url("../IMG/container_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
